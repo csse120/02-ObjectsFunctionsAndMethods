@@ -7,7 +7,6 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 ###############################################################################
-#
 # TODO: 2.
 #   Allow this module to use the  rosegraphics.py  module by marking the
 #     src
@@ -29,7 +28,6 @@ def main():
 
 
 ###############################################################################
-#
 # TODO: 3a.  Define a function immediately below this _TODO_.
 #   It takes two arguments that denote, for a right triangle,
 #   the lengths of the two sides adjacent to its right angle,
@@ -45,7 +43,6 @@ def main():
 
 
 ###############################################################################
-#
 # TODO: 4a.  Define a function immediately below this _TODO_.
 #   It takes two arguments:
 #     -- a string that represents a color (e.g. 'red')
@@ -75,7 +72,6 @@ def main():
 
 
 ###############################################################################
-#
 # TODO: 5.
 #   COMMIT-and-PUSH your work (after changing this TO-DO to DONE).
 #

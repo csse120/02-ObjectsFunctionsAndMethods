@@ -17,8 +17,9 @@ def main():
     window.tracer(drawing_speed)
 
     # -------------------------------------------------------------------------
-    # When the _TODO_s ask you to test YOUR code, comment-out the following
-    # two statements and add calls to   better_draw_circles   et al as needed.
+    # When the _TODO_s ask you to test YOUR code,
+    # comment-out the following two statements and replace them
+    # by calls to   better_draw_circles   et al as needed.
     # -------------------------------------------------------------------------
     draw_circles(rg.Point(100, 50))
     draw_circles(rg.Point(-200, 0))
@@ -28,18 +29,17 @@ def main():
 
 
 ###############################################################################
-#
 # TODO: 2.
 #   First, RUN this program.  You will see that it draws concentric circles
 #   whose radii vary by 15.
 #
 #   Next, READ:
 #     -- main.
-#            Note that it  constructs a TurtleWindow and then calls the function
-#                 draw_circles
-#            twice, sending   draw_circles  one Point the first time
-#            and another Point the second time.
-#     -- The function  draw_circles  defined immediately below this _TODO_.
+#          Note that it  constructs a TurtleWindow and then calls the function
+#             draw_circles
+#          twice, sending   draw_circles  one Point the first time
+#          and another Point the second time.
+#     -- The function  draw_circles  is defined immediately below this _TODO_.
 #            Be sure that you understand its code!  Ask questions as needed!
 #
 #   After you have done the above, change the above _TODO_ to DONE
@@ -57,18 +57,18 @@ def draw_circles(point):
     """
     turtle = rg.SimpleTurtle()
 
-    # --------------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # Draw circles centered at the given Point, by telling the SimpleTurtle to:
     #  Step 1: Go to the given Point and point east (towards the right).
     #  Step 2: Go 15 pixels DOWN, with its Pen up.
     #          Then draw a radius R circle.
     #    Note: The circle will be centered at the given Point,
     #    because of the way that the SimpleTurtle  draw_circle  method works.
-    #  Step 3: Repeat Step 2, but using 30 pixels instead of 15 (in both places)
+    #  Step 3: Repeat Step 2, but using 30 pixels instead of 15, in both places
     #  Step 4: Repeat Step 2, but using 45 pixels instead of 15
     #  Step 5: Repeat Step 2, but using 60 pixels instead of 15
     #    etc.
-    # --------------------------------------------------------------------------
+    # -------------------------------------------------------------------------
 
     turtle.pen_up()
     turtle.go_to(point)
@@ -88,7 +88,6 @@ def draw_circles(point):
 
 
 ###############################################################################
-#
 # TODO: 3a.
 #   The function
 #       better_draw_circles
@@ -118,7 +117,7 @@ def draw_circles(point):
 #   better_draw_circles  function, to TEST that your modified code is correct
 #   and does indeed allow for different amounts by which the radii can vary.
 #
-# ###############################################################################
+# #############################################################################
 
 
 def better_draw_circles(point):
@@ -145,7 +144,6 @@ def better_draw_circles(point):
 
 
 ###############################################################################
-#
 # TODO: 4a.
 #   In the previous _TODO_, you made a MORE POWERFUL version
 #   of   draw_circles   by introducing a PARAMETER for the amount
@@ -189,7 +187,7 @@ def even_better_draw_circles(point):
 ###############################################################################
 
 
-# ----------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
-# -------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 main()

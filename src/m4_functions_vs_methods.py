@@ -8,7 +8,6 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 ###############################################################################
-#
 # TODO: 2.
 #   With your instructor, READ the file   methods_vs_functions.txt
 #   in this project, ASKING QUESTIONS as needed to understand its contents.
@@ -34,7 +33,7 @@ def main():
     try_functions()
     try_methods_and_functions()
 
-    window.close_on_mouse_click()  # Your code must be ABOVE this statement
+    window.close_on_mouse_click()
 
 
 def run_example():
@@ -98,9 +97,7 @@ def draw_many_squares(my_turtle, number_of_squares, size, twist):
         my_turtle.draw_square(size)
         my_turtle.left(twist)
 
-
 ###############################################################################
-#
 # TODO: 3.
 #   There are four FUNCTIONS defined ABOVE this:
 #     main
@@ -127,6 +124,7 @@ def draw_many_squares(my_turtle, number_of_squares, size, twist):
 #
 ###############################################################################
 
+
 def try_methods():
     """
     Constructs a SimpleTurtle and sets its   pen   to a new rg.Pen
@@ -138,13 +136,15 @@ def try_methods():
       -- backward  100 units
     """
     ###########################################################################
-    # TODO: 3. Implement and test this function, per its doc-string above.
+    # TODO: 4. Implement and test this function, per its doc-string above.
     #   The testing code (in main) is already written for you.
     ###########################################################################
 
 
+###############################################################################
+# IMPORTANT: Read the NOTE below before you try to implement the next function!
+###############################################################################
 def try_functions():
-    # IMPORTANT: Read the NOTE below before you try to solve this TO-DO!
     """
     Causes several SimpleTurtles to do the following:
      -- One jumps to (200, 100), then moves (while drawing) to (300, 30)
@@ -152,7 +152,7 @@ def try_functions():
      -- One jumps to (-50, 50), then moves (while drawing) to (100, 100)
     """
     ###########################################################################
-    # TODO: 4. Implement and test this function, per its doc-string above.
+    # TODO: 5. Implement and test this function, per its doc-string above.
     #   The testing code (in main) is already written for you.
     #
     #    NOTE: This function requires
@@ -162,8 +162,10 @@ def try_functions():
     ###########################################################################
 
 
+###############################################################################
+# IMPORTANT: Read the NOTE below before you try to implement the next function!
+###############################################################################
 def try_methods_and_functions():
-    # IMPORTANT: Read the NOTE below before you try to solve this TO-DO!
     """
     Constructs a SimpleTurtle and sets its   pen  to a new rg.Pen
     that is 'blue' with thickness 5.
@@ -196,7 +198,7 @@ def try_methods_and_functions():
       8. Draw a SQUARE whose sides are each of length 50.
     """
     ###########################################################################
-    # TODO: 5. Implement and test this function, per its doc-string above.
+    # TODO: 6. Implement and test this function, per its doc-string above.
     #   The testing code (in main) is already written for you.
     #
     #   NOTE: This function should ** CALL ** the
