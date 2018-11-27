@@ -117,7 +117,7 @@ def draw_circles(point):
 #   better_draw_circles  function, to TEST that your modified code is correct
 #   and does indeed allow for different amounts by which the radii can vary.
 #
-# #############################################################################
+###############################################################################
 
 
 def better_draw_circles(point):
