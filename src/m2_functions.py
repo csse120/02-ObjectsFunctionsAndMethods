@@ -2,8 +2,8 @@
 Practice DEFINING and CALLING
      FUNCTIONS
 
-Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
+Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
+         Aaron Wilkin, their colleagues, and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 ###############################################################################
@@ -30,7 +30,7 @@ def main():
 
 ###############################################################################
 #
-# TODO: 3a.  Define a function immediately blow this _TODO_.
+# TODO: 3a.  Define a function immediately below this _TODO_.
 #   It takes two arguments that denote, for a right triangle,
 #   the lengths of the two sides adjacent to its right angle,
 #   and it returns the length of the hypotenuse of that triangle.
@@ -82,14 +82,15 @@ def main():
 #   As a reminder, here is how you should do so:
 #     1. Select   VCS   from the menu bar (above).
 #     2. Choose  Commit  from the pull-down menu that appears.
-#     3. In the  Commit Changes  window that pops up:
-#          - HOVER over the  Commit  button
-#              (in the lower-right corner of the window)
-#          - CLICK on  Commit and Push.
-#          - Select  Push  when asked.
+#     3. In the  Commit Changes  window that pops up,
+#        press the   Commit and Push   button.
+#           Note: If you see only a Commit button:
+#              - HOVER over the  Commit  button
+#                  (in the lower-right corner of the window)
+#              - CLICK on  Commit and Push.
 #
-#   COMMIT adds the changed work to the version control on your computer
-#   and PUSH adds the changed work into your Github repository in the "cloud".
+#   COMMIT adds the changed work to the version control on your computer.
+#   PUSH adds the changed work into your Github repository in the "cloud".
 #
 #   COMMIT-and-PUSH your work as often as you want, but at the least, commit
 #   and push after you have tested a module and believe that it is correct.

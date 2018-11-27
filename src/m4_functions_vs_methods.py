@@ -3,8 +3,8 @@ Demonstrates using (calling) FUNCTIONS and using (calling) METHODS:
   -- what is similar, and
   -- how they differ.
 
-Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
-         their colleagues and Vibha Alangar.
+Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
+         Aaron Wilkin, their colleagues, and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 ###############################################################################
